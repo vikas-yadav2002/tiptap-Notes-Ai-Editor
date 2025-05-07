@@ -17,7 +17,7 @@ export default function NotesLayout() {
   // Create a note if there are none
   useEffect(() => {
     if (notes.length === 0) {
-      createNote();
+      // createNote();
     }
   }, [notes.length, createNote]);
   
